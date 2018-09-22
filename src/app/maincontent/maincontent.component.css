@@ -1,0 +1,189 @@
+.main-container{
+    text-align: center;
+}
+.heading, .main-content, .slide-container,.button-contaioner {
+    margin-top: 75px;
+}
+.heading-text{
+    font-size: 80px;
+    letter-spacing: 2px;
+    color: rgb(255,255,255);
+    font-family: "bet";
+}
+.content{
+    margin-bottom: 75px;
+}
+.dot {	
+	margin: 5px;
+    height: 137px;
+    width: 150px;
+    background-color: white;
+    border-radius: 50%;
+    display: inline-block;
+	
+}
+.dot:hover {background-color: grey}
+
+.button:active {
+  background-color: grey;
+}
+.nav-icons{
+	margin-top: 95px;
+	text-align:center;	
+}
+.icons{
+	display: table-cell;
+    vertical-align: middle;
+    height: 134px;
+    width: 143px;
+}
+.icons p{
+	color:red;
+	margin: 12px
+}
+
+.slide-container{
+    border-radius: 22px;
+	border: 10px solid rgba(255,255,255, 0.5);
+	width: 80%; 
+    margin: 0 auto;
+    position: relative;
+}
+.probar{
+    margin-bottom: 75px;
+}
+
+.slider {
+    -webkit-appearance: none;
+    width: 100%;
+    height: 16px;
+    background: #d3d3d3;
+    outline: none;
+	border-radius: 10px;
+	background: url("../../assets/img/slider.png") no-repeat ;
+	Background-size:100% 100%;
+    border-radius: 10px;
+}
+
+
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;	
+    width: 40px;
+    height: 30px;
+	background: url("../../assets/img/thumb.png") ;
+	background-repeat: no-repeat;
+    background-size: 20px 30px;
+    cursor: pointer;
+	
+}
+
+.slider::-moz-range-thumb {
+    -webkit-appearance: none;
+    appearance: none;	
+    width: 40px;
+    height: 30px;
+	background: url("../../assets/img/thumb.png") ;
+	background-repeat: no-repeat;
+    background-size: 20px 30px;
+    cursor: pointer;
+}
+.range{
+	position: relative;
+	text-align:center;
+	margin-top: 40px;
+}
+footer{
+	 margin-top: 65px;
+	 width:100%;
+}
+.arrow{
+    color: #cb0000;
+}
+.tryAgain{
+    color: white;
+    font-family: "DIN";
+	background-color: rgba(255,255,255, 0.5);
+    background-repeat:no-repeat;
+    border: 1px solid white;
+    outline:none;
+	border-radius: 23px;
+    padding: 20px;
+	margin:0 auto;
+	display: block;
+}
+.relevance-measure{
+	padding-top:1px;
+}
+.relevance{
+	font-size:8px;
+    padding:12px;
+    font-family: "DIN";
+}
+@media only screen and (min-width: 320px) {
+.relevance-measure{
+	padding-top:1px;
+}
+.relevance{
+	font-size: 8px;
+    padding: 12px;
+    font-family: "DIN";
+}
+	
+}
+@media only screen and (min-width: 375px) {
+.relevance-measure{
+	padding-top:1px;
+}
+.relevance{
+	font-size: 9px;
+    padding: 17px;
+    font-family: "DIN";
+}
+	
+} 
+@media only screen and (min-width: 425px) {
+.relevance-measure{
+	padding-top:1px;
+}
+.relevance{
+	font-size: 10px;
+    padding: 18px;
+    font-family: "DIN";
+}
+	
+}
+@media only screen and (min-width: 768px) {
+.relevance-measure{
+	padding-top:10px;
+}
+.relevance{
+	font-size: 13px;
+    padding: 52px;
+    font-family: "DIN";
+}
+	
+}
+@media only screen and (min-width: 1024px) {
+.relevance-measure{
+	padding-top:15px;
+}
+.relevance{
+	font-size: 17px;
+    padding: 66px;
+    font-family: "DIN";
+}
+	
+}
+@media only screen and (min-width: 1440px) {
+.relevance-measure{
+	padding-top:15px;
+}
+.relevance{
+	font-size: 19px;
+    padding: 96px;
+    font-family: "DIN";
+}
+	
+}
+	

@@ -1,0 +1,53 @@
+<div class="main-container">
+  <div class="heading">
+    <p class="heading-text">RESULT OF THE TEST</p>
+  </div>
+  <div class="content">
+    <span class="dot">
+      <div class="icons">
+        <img src="../assets/img/img1.png" alt="never">
+        <p>Never</p>
+      </div>
+    </span>
+    <span class="dot">
+      <div class="icons">
+        <img src="../assets/img/img2.png" alt="occasionally">
+        <p>Occasionally</p>
+      </div>
+    </span>
+    <span class="dot">
+      <div class="icons">
+        <img src="../assets/img/img3.png" alt="4 hours">
+        <p>4 hours</p>
+      </div>
+    </span>
+    <span class="dot">
+      <div class="icons">
+        <img src="../assets/img/img4.png" alt="yearly">
+        <p>Yearly</p>
+      </div>
+    </span>
+    <span class="dot">
+      <div class="icons">
+        <img src="../assets/img/img5.png" alt="never">
+        <p>Never</p>
+      </div>
+    </span>
+  </div>
+  <div>
+    <div class="probar">
+        <div class="slide-container">
+            <input type="range" min="1" max="100" value="0" [(ngModel)]="num" (ngModelChange)="setNum($event)" class="slider" id="myRange">					
+          </div>
+          <div class="relevance-measure">
+            <span class="relevance">LESS RELEVANT</span>
+            <span class="relevance">RELEVENT</span>
+            <span class="relevance">VERY RELEVENT</span>
+          </div>
+        </div>
+    </div>
+    
+  <div class="button-container">
+    <button class="tryAgain" (click)=reset()> TRY AGAIN <span class="arrow">></span> </button>
+  </div>
+</div>

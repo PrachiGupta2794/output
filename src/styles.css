@@ -1,0 +1,16 @@
+/* You can add global styles to this file, and also import other style files */
+@font-face {
+    font-family: bet;
+    src: url(assets/fonts/BeautifulEveryTime.ttf) format("opentype");
+  }
+  @font-face {
+    font-family: DIN;
+    src: url(assets/fonts/DINPro-Regular_13937.ttf) format("opentype");
+  }
+body {
+    /* background-image: url("./assets/img/ghiokgr.jpg"); */
+    background-image: url("./assets/img/photo-background-images.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
